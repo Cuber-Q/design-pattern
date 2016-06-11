@@ -7,6 +7,9 @@ public class CountDisplay extends Display{
 		// TODO Auto-generated constructor stub
 	}
 
+	/**
+	 * 有点像模板方法模式
+	 */
 	public void multiDisplay(){
 		rowOpen();
 		for(int i=0;i<count;i++){

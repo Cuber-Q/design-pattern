@@ -2,9 +2,11 @@ package bridge;
 
 public class SimpleDisplayImpl extends DispalyImpl{	
 	private String str;
+	private int width;
 	
 	public SimpleDisplayImpl(String s){
 		this.str = s;
+		this.width = s.getBytes().length;
 	}
 	
 	@Override
@@ -26,10 +28,14 @@ public class SimpleDisplayImpl extends DispalyImpl{
 	}
 
 	public void printLine(){
-		System.out.println("|---------------|");
+		System.out.print("+");
+		for(int i=0;i<width;i++){
+			System.out.print("-");
+		}
+		System.out.println("+");
 	}
 	
 	public void printStr(String s){
-		System.out.println("|------"+s+"-----|");
+		System.out.println("|"+s+"|");
 	}
 }
