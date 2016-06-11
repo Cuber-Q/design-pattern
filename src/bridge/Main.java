@@ -14,5 +14,8 @@ public class Main {
 		
 		RandomDisplay r1 = new RandomDisplay(new SimpleDisplayImpl("hello, r1"));
 		r1.randomDiplay(5);
+		
+		Display d4 = new Display(new AnotherDisplayImpl("hello, d4"));
+		d4.display();
 	}
 }
