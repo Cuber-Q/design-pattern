@@ -1,6 +1,10 @@
 package bridge;
 
 public class Display {
+	/**
+	 * 连接功能层次(Display体系)和实现层次(DispalyImpl体系)的关键，
+	 * 就是这个实现类的对象
+	 */
 	private DispalyImpl impl;
 	
 	public Display(DispalyImpl impl){
