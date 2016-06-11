@@ -11,5 +11,8 @@ public class Main {
 		d3.display();
 		
 		d3.multiDisplay();
+		
+		RandomDisplay r1 = new RandomDisplay(new SimpleDisplayImpl("hello, r1"));
+		r1.randomDiplay(5);
 	}
 }
