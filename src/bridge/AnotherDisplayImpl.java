@@ -1,5 +1,9 @@
 package bridge;
-
+/**
+ * 另一个实现类，打印时的边界为＊和～
+ * @author Cuber_Q
+ *
+ */
 public class AnotherDisplayImpl extends DispalyImpl{
 	private String str;
 	private int width;
