@@ -25,6 +25,7 @@ public class SimpleDisplayImpl extends DispalyImpl{
 	public void rowClose() {
 		// TODO Auto-generated method stub
 		printLine();
+		System.out.println();
 	}
 
 	public void printLine(){
